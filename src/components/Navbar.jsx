@@ -12,15 +12,17 @@ const NAV_LINKS = [
 ];
 
 export default function Navbar() {
-  const { totalItems, totalAmount, setIsCartOpen } = useCart();
-  const [isScrolled, setIsScrolled] = useState(false);
+  const { totalItems, totalAmount, setIsCartOpen, cartAnimationTrigger } = useCart();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [bounce, setBounce] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => setIsScrolled(window.scrollY > 20);
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+    if (cartAnimationTrigger > 0) {
+      setBounce(true);
+      const timer = setTimeout(() => setBounce(false), 500);
+      return () => clearTimeout(timer);
+    }
+  }, [cartAnimationTrigger]);
 
   const handleWhatsApp = () => {
     const msg = encodeURIComponent('Hola Río Largo 👋 Quisiera realizar un pedido.');
@@ -78,7 +80,10 @@ export default function Navbar() {
             {/* Shopping Cart Button — Opens CartDrawer on click */}
             <button
               onClick={handleCartClick}
-              className="relative flex items-center gap-2 bg-[#D6A62A] text-[#160708] px-3.5 sm:px-4 py-2.5 rounded-full text-xs font-extrabold uppercase tracking-wider shadow-md hover:bg-[#E6B83B] hover:scale-105 transition-all"
+              data-cart-target
+              className={`relative flex items-center gap-2 bg-[#D6A62A] text-[#160708] px-3.5 sm:px-4 py-2.5 rounded-full text-xs font-extrabold uppercase tracking-wider shadow-md hover:bg-[#E6B83B] hover:scale-105 transition-all ${
+                bounce ? 'animate-cart-bounce' : ''
+              }`}
               aria-label="Ver resumen de tu pedido"
             >
               <div className="relative flex items-center justify-center">

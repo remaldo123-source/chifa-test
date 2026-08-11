@@ -1,18 +1,33 @@
 import React from 'react';
-import { Sparkles, Clock } from 'lucide-react';
-import { RESTAURANT_INFO } from '../data/menuData';
-import WhatsAppIcon from './WhatsAppIcon';
+import { Sparkles, Clock, Plus, Minus, Check } from 'lucide-react';
+import { PRODUCTS } from '../data/menuData';
+import { useCart } from '../context/CartContext';
 
 export default function CombosBanner() {
-  const combos = [
-    { name: 'Combo Duo Chifero', price: 42.00, desc: '1 Chaufa Especial + 1 Tallarín Saltado + 6 Wantanes' },
-    { name: 'Combo Familiar Río Largo', price: 78.00, desc: '2 Chaufas + 1 Lomo Saltado + 12 Wantanes + Inca Kola 1.5L' },
-    { name: 'Banquete Imperial', price: 110.00, desc: 'Chaufa Especial + Kam Lu Wantán + Aeropuerto + Sopita Fuchifú' },
-  ];
+  const { cart, addItem, updateQuantity, setCustomizingProduct } = useCart();
 
-  const handleWhatsAppCombo = (comboName) => {
-    const msg = encodeURIComponent(`Hola Río Largo 👋 Quisiera pedir el ${comboName}.`);
-    window.open(`https://wa.me/${RESTAURANT_INFO.whatsappNumber}?text=${msg}`, '_blank');
+  // Retrieve the 3 combo items from PRODUCTS master list
+  const comboProducts = PRODUCTS.filter(p => p.category === 'combos');
+
+  const handleAddCombo = (product) => {
+    if (product.customizable) {
+      setCustomizingProduct(product);
+    } else {
+      addItem(product, 1);
+    }
+  };
+
+  const handleIncrement = (product, cartItems) => {
+    if (cartItems.length === 1 && !cartItems[0].selectedExtras?.length && !cartItems[0].itemNotes) {
+      updateQuantity(cartItems[0].cartItemId, 1);
+    } else {
+      setCustomizingProduct(product);
+    }
+  };
+
+  const handleDecrement = (cartItems) => {
+    const lastItem = cartItems[cartItems.length - 1];
+    if (lastItem) updateQuantity(lastItem.cartItemId, -1);
   };
 
   return (
@@ -52,29 +67,54 @@ export default function CombosBanner() {
           </div>
 
           <div className="space-y-3">
-            {combos.map((combo, idx) => (
-              <div key={idx} className="p-4 rounded-2xl bg-[#160708]/70 border border-[#D6A62A]/30 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-md">
-                <div>
-                  <h4 className="font-bold text-sm text-white">{combo.name}</h4>
-                  <p className="text-[11px] text-white/70 mt-0.5">{combo.desc}</p>
-                </div>
-                
-                <div className="flex items-center gap-3 shrink-0">
-                  <span className="font-display font-black text-xl text-[#D6A62A]">
-                    S/ {combo.price.toFixed(2)}
-                  </span>
+            {comboProducts.map((combo) => {
+              const cartItemsForCombo = cart.filter(item => item.product.id === combo.id);
+              const totalQuantity = cartItemsForCombo.reduce((sum, item) => sum + item.quantity, 0);
+
+              return (
+                <div key={combo.id} className="p-4 rounded-2xl bg-[#160708]/70 border border-[#D6A62A]/30 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-md hover:border-[#D6A62A]/60 transition-all">
+                  <div>
+                    <h4 className="font-bold text-sm text-white">{combo.name}</h4>
+                    <p className="text-[11px] text-white/70 mt-0.5">{combo.description}</p>
+                  </div>
                   
-                  {/* Clean Chifa WhatsApp Pill Button */}
-                  <button
-                    onClick={() => handleWhatsAppCombo(combo.name)}
-                    className="px-4 py-2 rounded-full bg-[#D6A62A] text-[#160708] font-extrabold text-xs uppercase tracking-wider flex items-center gap-1.5 hover:bg-[#E6B83B] hover:scale-105 transition-all shadow-md"
-                  >
-                    <WhatsAppIcon className="w-4 h-4" />
-                    <span>PEDIR PROMO</span>
-                  </button>
+                  <div className="flex items-center justify-between sm:justify-end gap-3 shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-white/10">
+                    <span className="font-display font-black text-xl text-[#D6A62A]">
+                      S/ {combo.price.toFixed(2)}
+                    </span>
+                    
+                    {/* Add to Cart Button matching other items */}
+                    {totalQuantity > 0 ? (
+                      <div className="flex items-center gap-2 bg-[#8B0000] text-white rounded-xl p-1 border border-[#D6A62A]/50 shadow-md">
+                        <button
+                          onClick={() => handleDecrement(cartItemsForCombo)}
+                          className="w-8 h-8 rounded-lg flex items-center justify-center hover:bg-[#A30000] transition-colors"
+                          aria-label="Disminuir cantidad"
+                        >
+                          <Minus className="w-4 h-4" />
+                        </button>
+                        <span className="font-extrabold text-xs px-1">{totalQuantity}</span>
+                        <button
+                          onClick={() => handleIncrement(combo, cartItemsForCombo)}
+                          className="w-8 h-8 rounded-lg bg-[#F4C430] text-[#3A0009] font-black flex items-center justify-center hover:brightness-110 transition-colors"
+                          aria-label="Aumentar cantidad"
+                        >
+                          <Plus className="w-4 h-4" />
+                        </button>
+                      </div>
+                    ) : (
+                      <button
+                        onClick={() => handleAddCombo(combo)}
+                        className="px-5 py-2.5 rounded-full bg-[#8B0000] hover:bg-[#A30000] text-white font-extrabold text-xs uppercase tracking-wider flex items-center gap-1.5 border border-[#D6A62A]/50 transition-all shadow-md hover:scale-105"
+                      >
+                        <Plus className="w-4 h-4" />
+                        <span>AGREGAR</span>
+                      </button>
+                    )}
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
 
           {/* Valid until badge */}

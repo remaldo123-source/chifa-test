@@ -51,7 +51,7 @@ export default function FinalCTA() {
           <div className="lg:col-span-7 text-center lg:text-left space-y-5">
             <span className="seal">¡PEDIDO EN MENOS DE 60 SEGUNDOS!</span>
 
-            <h2 className="font-display font-black uppercase text-5xl sm:text-7xl lg:text-8xl text-[#F4C430] tracking-tight leading-none">
+            <h2 className="proun-text font-display font-black uppercase text-5xl sm:text-7xl lg:text-8xl text-[#F4C430] tracking-tight leading-none">
               ¿YA SE TE ANTOJÓ?
             </h2>
 
@@ -65,7 +65,7 @@ export default function FinalCTA() {
                 className="btn-yellow-gold px-8 py-4 rounded-full inline-flex items-center justify-center gap-3 text-sm font-extrabold hover:scale-105 transition-all shadow-xl"
               >
                 <WhatsAppIcon className="w-6 h-6" />
-                <span>PEDIR POR WHATSAPP</span>
+                <span className="proun-text">PEDIR POR WHATSAPP</span>
               </button>
             </div>
           </div>

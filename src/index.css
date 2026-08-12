@@ -1,5 +1,17 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Proun Bold';
+  src: url('/fonts/proun-bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+.proun-text {
+  font-family: 'Proun Bold', 'Chakra Petch', sans-serif;
+}
+
 @theme {
   /* ── Typography matching user mockup ──────────────────────────── */
   --font-brand: "Chakra Petch", "Bebas Neue", "Arial Black", sans-serif;
@@ -50,6 +62,11 @@
   /* Blocky Brand Font Class */
   .font-brand {
     font-family: var(--font-brand);
+    letter-spacing: 0.03em;
+  }
+
+  .font-display {
+    font-family: var(--font-display);
     letter-spacing: 0.03em;
   }
 

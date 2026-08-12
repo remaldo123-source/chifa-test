@@ -84,7 +84,7 @@ function MainAppContent() {
 
             {/* Menu Header */}
             <div className="flex flex-col sm:flex-row items-center justify-between gap-2 border-b border-[#E2D7C7] pb-3 text-center sm:text-left">
-              <h2 className="font-brand font-black text-2xl uppercase tracking-wider text-[#1A1817] flex items-center gap-2">
+              <h2 className="proun-text font-brand font-black text-2xl uppercase tracking-wider text-[#1A1817] flex items-center gap-2">
                 <span>🥢</span>
                 <span>NUESTRO MENÚ</span>
                 <span>🥢</span>

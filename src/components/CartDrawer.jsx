@@ -68,7 +68,7 @@ export default function CartDrawer() {
               <ShoppingBag className="w-4.5 h-4.5" strokeWidth={2.4} />
             </div>
             <div>
-              <h3 className="font-brand font-black text-sm text-gold-100 uppercase tracking-wider leading-none">
+              <h3 className="proun-text font-brand font-black text-sm text-gold-100 uppercase tracking-wider leading-none">
                 TU PEDIDO
               </h3>
               <p className="text-[10px] text-white/70 mt-0.5">

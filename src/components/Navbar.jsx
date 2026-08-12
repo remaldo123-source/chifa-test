@@ -44,7 +44,7 @@ export default function Navbar() {
               龍
             </div>
             <div>
-              <div className="font-brand font-black text-white text-xl lg:text-2xl tracking-wider leading-none">
+              <div className="proun-text font-brand font-black text-white text-xl lg:text-2xl tracking-wider leading-none">
                 RÍO LARGO
               </div>
               <div className="text-[10px] text-[#D4AF37] font-bold tracking-[0.25em] uppercase mt-0.5">
@@ -74,7 +74,7 @@ export default function Navbar() {
               className="btn-crimson hidden sm:inline-flex items-center gap-2 px-4 sm:px-5 py-2.5 rounded-full text-xs font-extrabold hover:scale-105 transition-all shadow-md"
             >
               <WhatsAppIcon className="w-4.5 h-4.5" />
-              <span>PEDIR POR WHATSAPP</span>
+              <span className="proun-text">PEDIR POR WHATSAPP</span>
             </button>
 
             {/* Shopping Cart Button — Opens CartDrawer on click */}

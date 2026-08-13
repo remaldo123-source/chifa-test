@@ -1,26 +1,21 @@
-# Graph Report - Rio LarGo  (2026-08-12)
+# Graph Report - Rio LarGo  (2026-08-08)
 
 ## Corpus Check
-- 63 files · ~149,485 words
+- 61 files · ~148,859 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 272 nodes · 410 edges · 31 communities (21 shown, 10 thin omitted)
+- 268 nodes · 393 edges · 31 communities (21 shown, 10 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
-## Graph Freshness
-- Built from commit: `fd1f799e`
-- Run `git rev-parse HEAD` and compare to check if the graph is stale.
-- Run `graphify update .` after code changes (no API cost).
-
 ## Community Hubs (Navigation)
-- react
-- App.jsx
+- menuData.js
+- useCart
 - What You Must Do When Invoked
 - What You Must Do When Invoked
 - package.json
-- PromoBanner.jsx
+- App.jsx
 - graphify reference: extra exports and benchmark
 - graphify reference: extra exports and benchmark
 - .oxlintrc.json
@@ -47,41 +42,41 @@
 - opencode.json
 
 ## God Nodes (most connected - your core abstractions)
-1. `react` - 34 edges
-2. `useCart()` - 23 edges
-3. `RESTAURANT_INFO` - 12 edges
+1. `react` - 32 edges
+2. `useCart()` - 19 edges
+3. `useReveal()` - 13 edges
 4. `What You Must Do When Invoked` - 12 edges
 5. `What You Must Do When Invoked` - 12 edges
-6. `/graphify` - 10 edges
+6. `RESTAURANT_INFO` - 11 edges
 7. `/graphify` - 10 edges
-8. `useReveal()` - 9 edges
-9. `WhatsAppIcon()` - 8 edges
+8. `/graphify` - 10 edges
+9. `graphify reference: extra exports and benchmark` - 8 edges
 10. `graphify reference: extra exports and benchmark` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `MainAppContent()` --references--> `CATEGORIES`  [EXTRACTED]
   src/App.jsx → src/data/menuData.js
-- `CartSidebar()` --calls--> `useCart()`  [EXTRACTED]
-  src/components/CartSidebar.jsx → src/context/CartContext.jsx
+- `Navbar()` --calls--> `useCart()`  [EXTRACTED]
+  src/components/Navbar.jsx → src/context/CartContext.jsx
+- `ProductModal()` --calls--> `useCart()`  [EXTRACTED]
+  src/components/ProductModal.jsx → src/context/CartContext.jsx
 - `CartDrawer()` --calls--> `useCart()`  [EXTRACTED]
   src/components/CartDrawer.jsx → src/context/CartContext.jsx
-- `CombosBanner()` --calls--> `useCart()`  [EXTRACTED]
-  src/components/CombosBanner.jsx → src/context/CartContext.jsx
-- `FeaturedProducts()` --calls--> `useCart()`  [EXTRACTED]
-  src/components/FeaturedProducts.jsx → src/context/CartContext.jsx
+- `CombosBanner()` --calls--> `useParallax()`  [EXTRACTED]
+  src/components/CombosBanner.jsx → src/hooks/useParallax.js
 
 ## Import Cycles
 - None detected.
 
 ## Communities (31 total, 10 thin omitted)
 
-### Community 0 - "react"
-Cohesion: 0.13
-Nodes (11): react, MainAppContent(), CategoryNav(), ICON_MAP, CategorySidebar(), ICON_MAP, NAV_LINKS, WhatsAppIcon() (+3 more)
+### Community 0 - "menuData.js"
+Cohesion: 0.12
+Nodes (11): FinalCTA(), FloatingWhatsApp(), Footer(), Hero(), LocationSection(), NAV_LINKS, Navbar(), ProductModal() (+3 more)
 
-### Community 1 - "App.jsx"
-Cohesion: 0.09
-Nodes (32): App(), CartDrawer(), CartSidebar(), CombosBanner(), FeaturedProducts(), FinalCTA(), FloatingCartButton(), FlyToCart() (+24 more)
+### Community 1 - "useCart"
+Cohesion: 0.14
+Nodes (19): CartDrawer(), FeaturedProducts(), FloatingCartButton(), FlyToCart(), MenuSection(), ProductCard(), Toast(), WhatsAppPreviewModal() (+11 more)
 
 ### Community 2 - "What You Must Do When Invoked"
 Cohesion: 0.08
@@ -95,9 +90,9 @@ Nodes (24): For /graphify add and --watch, For /graphify query, For the commit h
 Cohesion: 0.12
 Nodes (16): lucide-react, dependencies, lucide-react, react, react-dom, name, private, scripts (+8 more)
 
-### Community 5 - "PromoBanner.jsx"
-Cohesion: 0.23
-Nodes (8): PROMO, PromoBanner(), StorySection(), STATS, Testimonials, TrustSection(), useParallax(), useReveal()
+### Community 5 - "App.jsx"
+Cohesion: 0.12
+Nodes (20): react, App(), MainAppContent(), CategoryNav(), ICON_MAP, CategorySidebar(), ICON_MAP, CombosBanner() (+12 more)
 
 ### Community 6 - "graphify reference: extra exports and benchmark"
 Cohesion: 0.22
@@ -163,17 +158,17 @@ Nodes (3): plugin, $schema, .opencode/plugins/graphify.js
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `react` connect `react` to `.oxlintrc.json`, `App.jsx`, `PromoBanner.jsx`?**
-  _High betweenness centrality (0.049) - this node is a cross-community bridge._
-- **Why does `plugins` connect `.oxlintrc.json` to `react`?**
+- **Why does `react` connect `App.jsx` to `.oxlintrc.json`, `useCart`, `menuData.js`?**
+  _High betweenness centrality (0.044) - this node is a cross-community bridge._
+- **Why does `plugins` connect `.oxlintrc.json` to `App.jsx`?**
   _High betweenness centrality (0.018) - this node is a cross-community bridge._
 - **Why does `devDependencies` connect `devDependencies` to `package.json`?**
   _High betweenness centrality (0.009) - this node is a cross-community bridge._
 - **What connects `$schema`, `.opencode/plugins/graphify.js`, `$schema` to the rest of the system?**
   _120 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `react` be split into smaller, more focused modules?**
-  _Cohesion score 0.13118279569892474 - nodes in this community are weakly interconnected._
-- **Should `App.jsx` be split into smaller, more focused modules?**
-  _Cohesion score 0.09397163120567376 - nodes in this community are weakly interconnected._
+- **Should `menuData.js` be split into smaller, more focused modules?**
+  _Cohesion score 0.11857707509881422 - nodes in this community are weakly interconnected._
+- **Should `useCart` be split into smaller, more focused modules?**
+  _Cohesion score 0.13793103448275862 - nodes in this community are weakly interconnected._
 - **Should `What You Must Do When Invoked` be split into smaller, more focused modules?**
   _Cohesion score 0.08 - nodes in this community are weakly interconnected._

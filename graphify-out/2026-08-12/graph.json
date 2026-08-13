@@ -121,8 +121,8 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "ref_react",
-      "community": 0,
-      "community_name": "react",
+      "community": 5,
+      "community_name": "App.jsx",
       "norm_label": "react"
     },
     {
@@ -539,7 +539,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_app",
-      "community": 1,
+      "community": 5,
       "community_name": "App.jsx",
       "norm_label": "app.jsx"
     },
@@ -547,23 +547,23 @@
       "label": "MainAppContent()",
       "file_type": "code",
       "source_file": "src/App.jsx",
-      "source_location": "L27",
+      "source_location": "L28",
       "_callable": true,
       "_origin": "ast",
       "id": "src_app_mainappcontent",
-      "community": 0,
-      "community_name": "react",
+      "community": 5,
+      "community_name": "App.jsx",
       "norm_label": "mainappcontent()"
     },
     {
       "label": "App()",
       "file_type": "code",
       "source_file": "src/App.jsx",
-      "source_location": "L145",
+      "source_location": "L147",
       "_callable": true,
       "_origin": "ast",
       "id": "src_app_app",
-      "community": 1,
+      "community": 5,
       "community_name": "App.jsx",
       "norm_label": "app()"
     },
@@ -575,7 +575,7 @@
       "_origin": "ast",
       "id": "src_components_cartdrawer",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "cartdrawer.jsx"
     },
     {
@@ -587,31 +587,8 @@
       "_origin": "ast",
       "id": "src_components_cartdrawer_cartdrawer",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "cartdrawer()"
-    },
-    {
-      "label": "CartSidebar.jsx",
-      "file_type": "code",
-      "source_file": "src/components/CartSidebar.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "src_components_cartsidebar",
-      "community": 0,
-      "community_name": "react",
-      "norm_label": "cartsidebar.jsx"
-    },
-    {
-      "label": "CartSidebar()",
-      "file_type": "code",
-      "source_file": "src/components/CartSidebar.jsx",
-      "source_location": "L7",
-      "_callable": true,
-      "_origin": "ast",
-      "id": "src_components_cartsidebar_cartsidebar",
-      "community": 1,
-      "community_name": "App.jsx",
-      "norm_label": "cartsidebar()"
     },
     {
       "label": "CategoryNav.jsx",
@@ -620,8 +597,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_categorynav",
-      "community": 0,
-      "community_name": "react",
+      "community": 5,
+      "community_name": "App.jsx",
       "norm_label": "categorynav.jsx"
     },
     {
@@ -631,8 +608,8 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "src_components_categorynav_icon_map",
-      "community": 0,
-      "community_name": "react",
+      "community": 5,
+      "community_name": "App.jsx",
       "norm_label": "icon_map"
     },
     {
@@ -643,8 +620,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "src_components_categorynav_categorynav",
-      "community": 0,
-      "community_name": "react",
+      "community": 5,
+      "community_name": "App.jsx",
       "norm_label": "categorynav()"
     },
     {
@@ -654,8 +631,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_categorysidebar",
-      "community": 0,
-      "community_name": "react",
+      "community": 5,
+      "community_name": "App.jsx",
       "norm_label": "categorysidebar.jsx"
     },
     {
@@ -665,8 +642,8 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "src_components_categorysidebar_icon_map",
-      "community": 0,
-      "community_name": "react",
+      "community": 5,
+      "community_name": "App.jsx",
       "norm_label": "icon_map"
     },
     {
@@ -677,8 +654,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "src_components_categorysidebar_categorysidebar",
-      "community": 0,
-      "community_name": "react",
+      "community": 5,
+      "community_name": "App.jsx",
       "norm_label": "categorysidebar()"
     },
     {
@@ -688,7 +665,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_combosbanner",
-      "community": 1,
+      "community": 5,
       "community_name": "App.jsx",
       "norm_label": "combosbanner.jsx"
     },
@@ -700,7 +677,7 @@
       "_callable": true,
       "_origin": "ast",
       "id": "src_components_combosbanner_combosbanner",
-      "community": 1,
+      "community": 5,
       "community_name": "App.jsx",
       "norm_label": "combosbanner()"
     },
@@ -712,7 +689,7 @@
       "_origin": "ast",
       "id": "src_components_featuredproducts",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "featuredproducts.jsx"
     },
     {
@@ -724,7 +701,7 @@
       "_origin": "ast",
       "id": "src_components_featuredproducts_featuredproducts",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "featuredproducts()"
     },
     {
@@ -735,7 +712,7 @@
       "_origin": "ast",
       "id": "src_components_finalcta",
       "community": 0,
-      "community_name": "react",
+      "community_name": "menuData.js",
       "norm_label": "finalcta.jsx"
     },
     {
@@ -746,8 +723,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "src_components_finalcta_finalcta",
-      "community": 1,
-      "community_name": "App.jsx",
+      "community": 0,
+      "community_name": "menuData.js",
       "norm_label": "finalcta()"
     },
     {
@@ -758,7 +735,7 @@
       "_origin": "ast",
       "id": "src_components_floatingcartbutton",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "floatingcartbutton.jsx"
     },
     {
@@ -770,7 +747,7 @@
       "_origin": "ast",
       "id": "src_components_floatingcartbutton_floatingcartbutton",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "floatingcartbutton()"
     },
     {
@@ -781,7 +758,7 @@
       "_origin": "ast",
       "id": "src_components_floatingwhatsapp",
       "community": 0,
-      "community_name": "react",
+      "community_name": "menuData.js",
       "norm_label": "floatingwhatsapp.jsx"
     },
     {
@@ -793,7 +770,7 @@
       "_origin": "ast",
       "id": "src_components_floatingwhatsapp_floatingwhatsapp",
       "community": 0,
-      "community_name": "react",
+      "community_name": "menuData.js",
       "norm_label": "floatingwhatsapp()"
     },
     {
@@ -804,7 +781,7 @@
       "_origin": "ast",
       "id": "src_components_flytocart",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "flytocart.jsx"
     },
     {
@@ -816,7 +793,7 @@
       "_origin": "ast",
       "id": "src_components_flytocart_flytocart",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "flytocart()"
     },
     {
@@ -827,19 +804,19 @@
       "_origin": "ast",
       "id": "src_components_footer",
       "community": 0,
-      "community_name": "react",
+      "community_name": "menuData.js",
       "norm_label": "footer.jsx"
     },
     {
       "label": "Footer()",
       "file_type": "code",
       "source_file": "src/components/Footer.jsx",
-      "source_location": "L6",
+      "source_location": "L5",
       "_callable": true,
       "_origin": "ast",
       "id": "src_components_footer_footer",
-      "community": 1,
-      "community_name": "App.jsx",
+      "community": 0,
+      "community_name": "menuData.js",
       "norm_label": "footer()"
     },
     {
@@ -850,19 +827,19 @@
       "_origin": "ast",
       "id": "src_components_hero",
       "community": 0,
-      "community_name": "react",
+      "community_name": "menuData.js",
       "norm_label": "hero.jsx"
     },
     {
       "label": "Hero()",
       "file_type": "code",
       "source_file": "src/components/Hero.jsx",
-      "source_location": "L6",
+      "source_location": "L5",
       "_callable": true,
       "_origin": "ast",
       "id": "src_components_hero_hero",
-      "community": 1,
-      "community_name": "App.jsx",
+      "community": 0,
+      "community_name": "menuData.js",
       "norm_label": "hero()"
     },
     {
@@ -873,7 +850,7 @@
       "_origin": "ast",
       "id": "src_components_locationsection",
       "community": 0,
-      "community_name": "react",
+      "community_name": "menuData.js",
       "norm_label": "locationsection.jsx"
     },
     {
@@ -884,8 +861,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "src_components_locationsection_locationsection",
-      "community": 1,
-      "community_name": "App.jsx",
+      "community": 0,
+      "community_name": "menuData.js",
       "norm_label": "locationsection()"
     },
     {
@@ -896,7 +873,7 @@
       "_origin": "ast",
       "id": "src_components_menusection",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "menusection.jsx"
     },
     {
@@ -908,7 +885,7 @@
       "_origin": "ast",
       "id": "src_components_menusection_menusection",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "menusection()"
     },
     {
@@ -919,18 +896,18 @@
       "_origin": "ast",
       "id": "src_components_navbar",
       "community": 0,
-      "community_name": "react",
+      "community_name": "menuData.js",
       "norm_label": "navbar.jsx"
     },
     {
       "label": "NAV_LINKS",
       "file_type": "code",
       "source_file": "src/components/Navbar.jsx",
-      "source_location": "L7",
+      "source_location": "L6",
       "_origin": "ast",
       "id": "src_components_navbar_nav_links",
       "community": 0,
-      "community_name": "react",
+      "community_name": "menuData.js",
       "norm_label": "nav_links"
     },
     {
@@ -941,8 +918,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "src_components_navbar_navbar",
-      "community": 1,
-      "community_name": "App.jsx",
+      "community": 0,
+      "community_name": "menuData.js",
       "norm_label": "navbar()"
     },
     {
@@ -953,7 +930,7 @@
       "_origin": "ast",
       "id": "src_components_productcard",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "productcard.jsx"
     },
     {
@@ -965,7 +942,7 @@
       "_origin": "ast",
       "id": "src_components_productcard_productcard",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "productcard()"
     },
     {
@@ -975,8 +952,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_productmodal",
-      "community": 1,
-      "community_name": "App.jsx",
+      "community": 0,
+      "community_name": "menuData.js",
       "norm_label": "productmodal.jsx"
     },
     {
@@ -987,8 +964,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "src_components_productmodal_productmodal",
-      "community": 1,
-      "community_name": "App.jsx",
+      "community": 0,
+      "community_name": "menuData.js",
       "norm_label": "productmodal()"
     },
     {
@@ -999,30 +976,30 @@
       "_origin": "ast",
       "id": "src_components_promobanner",
       "community": 5,
-      "community_name": "PromoBanner.jsx",
+      "community_name": "App.jsx",
       "norm_label": "promobanner.jsx"
     },
     {
       "label": "PROMO",
       "file_type": "code",
       "source_file": "src/components/PromoBanner.jsx",
-      "source_location": "L8",
+      "source_location": "L6",
       "_origin": "ast",
       "id": "src_components_promobanner_promo",
       "community": 5,
-      "community_name": "PromoBanner.jsx",
+      "community_name": "App.jsx",
       "norm_label": "promo"
     },
     {
       "label": "PromoBanner()",
       "file_type": "code",
       "source_file": "src/components/PromoBanner.jsx",
-      "source_location": "L19",
+      "source_location": "L17",
       "_callable": true,
       "_origin": "ast",
       "id": "src_components_promobanner_promobanner",
       "community": 5,
-      "community_name": "PromoBanner.jsx",
+      "community_name": "App.jsx",
       "norm_label": "promobanner()"
     },
     {
@@ -1033,7 +1010,7 @@
       "_origin": "ast",
       "id": "src_components_rightsidebarwidgets",
       "community": 0,
-      "community_name": "react",
+      "community_name": "menuData.js",
       "norm_label": "rightsidebarwidgets.jsx"
     },
     {
@@ -1045,7 +1022,7 @@
       "_origin": "ast",
       "id": "src_components_rightsidebarwidgets_combosbannercard",
       "community": 0,
-      "community_name": "react",
+      "community_name": "menuData.js",
       "norm_label": "combosbannercard()"
     },
     {
@@ -1057,7 +1034,7 @@
       "_origin": "ast",
       "id": "src_components_rightsidebarwidgets_trustbadgessidebar",
       "community": 0,
-      "community_name": "react",
+      "community_name": "menuData.js",
       "norm_label": "trustbadgessidebar()"
     },
     {
@@ -1069,7 +1046,7 @@
       "_origin": "ast",
       "id": "src_components_rightsidebarwidgets_instagramsidebargrid",
       "community": 0,
-      "community_name": "react",
+      "community_name": "menuData.js",
       "norm_label": "instagramsidebargrid()"
     },
     {
@@ -1079,31 +1056,31 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_socialgrid",
-      "community": 0,
-      "community_name": "react",
+      "community": 5,
+      "community_name": "App.jsx",
       "norm_label": "socialgrid.jsx"
     },
     {
       "label": "InstagramIcon()",
       "file_type": "code",
       "source_file": "src/components/SocialGrid.jsx",
-      "source_location": "L4",
+      "source_location": "L5",
       "_callable": true,
       "_origin": "ast",
       "id": "src_components_socialgrid_instagramicon",
-      "community": 0,
-      "community_name": "react",
+      "community": 5,
+      "community_name": "App.jsx",
       "norm_label": "instagramicon()"
     },
     {
       "label": "SocialGrid()",
       "file_type": "code",
       "source_file": "src/components/SocialGrid.jsx",
-      "source_location": "L14",
+      "source_location": "L15",
       "_callable": true,
       "_origin": "ast",
       "id": "src_components_socialgrid_socialgrid",
-      "community": 1,
+      "community": 5,
       "community_name": "App.jsx",
       "norm_label": "socialgrid()"
     },
@@ -1115,7 +1092,7 @@
       "_origin": "ast",
       "id": "src_components_storysection",
       "community": 5,
-      "community_name": "PromoBanner.jsx",
+      "community_name": "App.jsx",
       "norm_label": "storysection.jsx"
     },
     {
@@ -1127,7 +1104,7 @@
       "_origin": "ast",
       "id": "src_components_storysection_storysection",
       "community": 5,
-      "community_name": "PromoBanner.jsx",
+      "community_name": "App.jsx",
       "norm_label": "storysection()"
     },
     {
@@ -1138,7 +1115,7 @@
       "_origin": "ast",
       "id": "src_components_testimonials",
       "community": 5,
-      "community_name": "PromoBanner.jsx",
+      "community_name": "App.jsx",
       "norm_label": "testimonials.jsx"
     },
     {
@@ -1150,7 +1127,7 @@
       "_origin": "ast",
       "id": "src_components_testimonials_testimonials",
       "community": 5,
-      "community_name": "PromoBanner.jsx",
+      "community_name": "App.jsx",
       "norm_label": "testimonials"
     },
     {
@@ -1161,7 +1138,7 @@
       "_origin": "ast",
       "id": "src_components_testimonials_stats",
       "community": 5,
-      "community_name": "PromoBanner.jsx",
+      "community_name": "App.jsx",
       "norm_label": "stats"
     },
     {
@@ -1173,7 +1150,7 @@
       "_origin": "ast",
       "id": "src_components_testimonials_stars",
       "community": 5,
-      "community_name": "PromoBanner.jsx",
+      "community_name": "App.jsx",
       "norm_label": "stars()"
     },
     {
@@ -1184,7 +1161,7 @@
       "_origin": "ast",
       "id": "src_components_toast",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "toast.jsx"
     },
     {
@@ -1196,7 +1173,7 @@
       "_origin": "ast",
       "id": "src_components_toast_toast",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "toast()"
     },
     {
@@ -1206,7 +1183,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_trustbar",
-      "community": 1,
+      "community": 5,
       "community_name": "App.jsx",
       "norm_label": "trustbar.jsx"
     },
@@ -1217,7 +1194,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "src_components_trustbar_points",
-      "community": 1,
+      "community": 5,
       "community_name": "App.jsx",
       "norm_label": "points"
     },
@@ -1229,7 +1206,7 @@
       "_callable": true,
       "_origin": "ast",
       "id": "src_components_trustbar_trustbar",
-      "community": 1,
+      "community": 5,
       "community_name": "App.jsx",
       "norm_label": "trustbar()"
     },
@@ -1241,7 +1218,7 @@
       "_origin": "ast",
       "id": "src_components_trustsection",
       "community": 5,
-      "community_name": "PromoBanner.jsx",
+      "community_name": "App.jsx",
       "norm_label": "trustsection.jsx"
     },
     {
@@ -1253,7 +1230,7 @@
       "_origin": "ast",
       "id": "src_components_trustsection_trustsection",
       "community": 5,
-      "community_name": "PromoBanner.jsx",
+      "community_name": "App.jsx",
       "norm_label": "trustsection()"
     },
     {
@@ -1263,8 +1240,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_valuestrip",
-      "community": 0,
-      "community_name": "react",
+      "community": 5,
+      "community_name": "App.jsx",
       "norm_label": "valuestrip.jsx"
     },
     {
@@ -1275,32 +1252,9 @@
       "_callable": true,
       "_origin": "ast",
       "id": "src_components_valuestrip_valuestrip",
-      "community": 0,
-      "community_name": "react",
+      "community": 5,
+      "community_name": "App.jsx",
       "norm_label": "valuestrip()"
-    },
-    {
-      "label": "WhatsAppIcon.jsx",
-      "file_type": "code",
-      "source_file": "src/components/WhatsAppIcon.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "src_components_whatsappicon",
-      "community": 0,
-      "community_name": "react",
-      "norm_label": "whatsappicon.jsx"
-    },
-    {
-      "label": "WhatsAppIcon()",
-      "file_type": "code",
-      "source_file": "src/components/WhatsAppIcon.jsx",
-      "source_location": "L3",
-      "_callable": true,
-      "_origin": "ast",
-      "id": "src_components_whatsappicon_whatsappicon",
-      "community": 0,
-      "community_name": "react",
-      "norm_label": "whatsappicon()"
     },
     {
       "label": "WhatsAppPreviewModal.jsx",
@@ -1310,7 +1264,7 @@
       "_origin": "ast",
       "id": "src_components_whatsapppreviewmodal",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "whatsapppreviewmodal.jsx"
     },
     {
@@ -1322,7 +1276,7 @@
       "_origin": "ast",
       "id": "src_components_whatsapppreviewmodal_whatsapppreviewmodal",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "whatsapppreviewmodal()"
     },
     {
@@ -1333,7 +1287,7 @@
       "_origin": "ast",
       "id": "src_context_cartcontext",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "cartcontext.jsx"
     },
     {
@@ -1344,7 +1298,7 @@
       "_origin": "ast",
       "id": "src_context_cartcontext_cartcontext",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "cartcontext"
     },
     {
@@ -1356,7 +1310,7 @@
       "_origin": "ast",
       "id": "src_context_cartcontext_cartprovider",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "cartprovider()"
     },
     {
@@ -1368,7 +1322,7 @@
       "_origin": "ast",
       "id": "src_context_cartcontext_usecart",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "usecart()"
     },
     {
@@ -1379,7 +1333,7 @@
       "_origin": "ast",
       "id": "src_data_menudata",
       "community": 0,
-      "community_name": "react",
+      "community_name": "menuData.js",
       "norm_label": "menudata.js"
     },
     {
@@ -1390,62 +1344,62 @@
       "_origin": "ast",
       "id": "src_data_menudata_restaurant_info",
       "community": 0,
-      "community_name": "react",
+      "community_name": "menuData.js",
       "norm_label": "restaurant_info"
     },
     {
       "label": "PAYMENT_METHODS",
       "file_type": "code",
       "source_file": "src/data/menuData.js",
-      "source_location": "L18",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "src_data_menudata_payment_methods",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "payment_methods"
     },
     {
       "label": "CATEGORIES",
       "file_type": "code",
       "source_file": "src/data/menuData.js",
-      "source_location": "L20",
+      "source_location": "L19",
       "_origin": "ast",
       "id": "src_data_menudata_categories",
-      "community": 0,
-      "community_name": "react",
+      "community": 5,
+      "community_name": "App.jsx",
       "norm_label": "categories"
     },
     {
       "label": "EXTRAS_LIST",
       "file_type": "code",
       "source_file": "src/data/menuData.js",
-      "source_location": "L32",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "src_data_menudata_extras_list",
-      "community": 1,
-      "community_name": "App.jsx",
+      "community": 0,
+      "community_name": "menuData.js",
       "norm_label": "extras_list"
     },
     {
       "label": "PRODUCTS",
       "file_type": "code",
       "source_file": "src/data/menuData.js",
-      "source_location": "L40",
+      "source_location": "L39",
       "_origin": "ast",
       "id": "src_data_menudata_products",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "products"
     },
     {
       "label": "TRUST_POINTS",
       "file_type": "code",
       "source_file": "src/data/menuData.js",
-      "source_location": "L235",
+      "source_location": "L222",
       "_origin": "ast",
       "id": "src_data_menudata_trust_points",
       "community": 0,
-      "community_name": "react",
+      "community_name": "menuData.js",
       "norm_label": "trust_points"
     },
     {
@@ -1456,7 +1410,7 @@
       "_origin": "ast",
       "id": "src_hooks_useparallax",
       "community": 5,
-      "community_name": "PromoBanner.jsx",
+      "community_name": "App.jsx",
       "norm_label": "useparallax.js"
     },
     {
@@ -1468,7 +1422,7 @@
       "_origin": "ast",
       "id": "src_hooks_useparallax_useparallax",
       "community": 5,
-      "community_name": "PromoBanner.jsx",
+      "community_name": "App.jsx",
       "norm_label": "useparallax()"
     },
     {
@@ -1479,7 +1433,7 @@
       "_origin": "ast",
       "id": "src_hooks_usereveal",
       "community": 5,
-      "community_name": "PromoBanner.jsx",
+      "community_name": "App.jsx",
       "norm_label": "usereveal.js"
     },
     {
@@ -1491,7 +1445,7 @@
       "_origin": "ast",
       "id": "src_hooks_usereveal_usereveal",
       "community": 5,
-      "community_name": "PromoBanner.jsx",
+      "community_name": "App.jsx",
       "norm_label": "usereveal()"
     },
     {
@@ -1501,7 +1455,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main",
-      "community": 1,
+      "community": 5,
       "community_name": "App.jsx",
       "norm_label": "main.jsx"
     },
@@ -1513,7 +1467,7 @@
       "_origin": "ast",
       "id": "src_utils_badges",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "badges.js"
     },
     {
@@ -1525,7 +1479,7 @@
       "_origin": "ast",
       "id": "src_utils_badges_getbadgestyle",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "getbadgestyle()"
     },
     {
@@ -1536,7 +1490,7 @@
       "_origin": "ast",
       "id": "src_utils_whatsapp",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "whatsapp.js"
     },
     {
@@ -1547,7 +1501,7 @@
       "_origin": "ast",
       "id": "src_utils_whatsapp_phone_number",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "phone_number"
     },
     {
@@ -1558,7 +1512,7 @@
       "_origin": "ast",
       "id": "src_utils_whatsapp_delivery_fee",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "delivery_fee"
     },
     {
@@ -1570,7 +1524,7 @@
       "_origin": "ast",
       "id": "src_utils_whatsapp_formatcurrency",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "formatcurrency()"
     },
     {
@@ -1582,7 +1536,7 @@
       "_origin": "ast",
       "id": "src_utils_whatsapp_generatewhatsappmessage",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "generatewhatsappmessage()"
     },
     {
@@ -1594,7 +1548,7 @@
       "_origin": "ast",
       "id": "src_utils_whatsapp_openwhatsappcheckout",
       "community": 1,
-      "community_name": "App.jsx",
+      "community_name": "useCart",
       "norm_label": "openwhatsappcheckout()"
     },
     {
@@ -3181,18 +3135,6 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/CartSidebar.jsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_cartsidebar",
-      "target": "ref_react",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/components/CategoryNav.jsx",
       "source_location": "L1",
       "weight": 1.0,
@@ -3474,18 +3416,6 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_valuestrip",
-      "target": "ref_react",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/WhatsAppIcon.jsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_whatsappicon",
       "target": "ref_react",
       "confidence_score": 1.0
     },
@@ -3938,7 +3868,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/App.jsx",
-      "source_location": "L145",
+      "source_location": "L147",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_app",
@@ -3949,7 +3879,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/App.jsx",
-      "source_location": "L27",
+      "source_location": "L28",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_app",
@@ -3961,7 +3891,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/App.jsx",
-      "source_location": "L21",
+      "source_location": "L22",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_app",
@@ -3973,7 +3903,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/App.jsx",
-      "source_location": "L21",
+      "source_location": "L22",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_app",
@@ -4105,7 +4035,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/App.jsx",
-      "source_location": "L22",
+      "source_location": "L23",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_app",
@@ -4117,7 +4047,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/App.jsx",
-      "source_location": "L22",
+      "source_location": "L23",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_app",
@@ -4129,7 +4059,31 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/App.jsx",
-      "source_location": "L25",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_app",
+      "target": "src_components_floatingwhatsapp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_app",
+      "target": "src_components_floatingwhatsapp_floatingwhatsapp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L26",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_app",
@@ -4141,7 +4095,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/App.jsx",
-      "source_location": "L25",
+      "source_location": "L26",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_app",
@@ -4273,7 +4227,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/App.jsx",
-      "source_location": "L20",
+      "source_location": "L21",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_app",
@@ -4285,7 +4239,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/App.jsx",
-      "source_location": "L20",
+      "source_location": "L21",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_app",
@@ -4393,7 +4347,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/App.jsx",
-      "source_location": "L24",
+      "source_location": "L25",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_app",
@@ -4405,7 +4359,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/App.jsx",
-      "source_location": "L24",
+      "source_location": "L25",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_app",
@@ -4465,7 +4419,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/App.jsx",
-      "source_location": "L23",
+      "source_location": "L24",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_app",
@@ -4477,7 +4431,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/App.jsx",
-      "source_location": "L23",
+      "source_location": "L24",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_app",
@@ -4562,7 +4516,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/App.jsx",
-      "source_location": "L33",
+      "source_location": "L34",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_app_mainappcontent",
@@ -4690,77 +4644,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/CartSidebar.jsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_cartsidebar",
-      "target": "src_components_cartsidebar_cartsidebar",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/CartSidebar.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_cartsidebar",
-      "target": "src_components_whatsappicon",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/CartSidebar.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_cartsidebar",
-      "target": "src_components_whatsappicon_whatsappicon",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/CartSidebar.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_cartsidebar",
-      "target": "src_context_cartcontext",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/CartSidebar.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_cartsidebar",
-      "target": "src_context_cartcontext_usecart",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components/CartSidebar.jsx",
-      "source_location": "L19",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_cartsidebar_cartsidebar",
-      "target": "src_context_cartcontext_usecart"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "src/components/CategoryNav.jsx",
       "source_location": "L17",
       "weight": 1.0,
@@ -4866,11 +4749,11 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/components/CombosBanner.jsx",
-      "source_location": "L4",
+      "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_combosbanner",
-      "target": "src_context_cartcontext",
+      "target": "src_hooks_useparallax",
       "confidence_score": 1.0
     },
     {
@@ -4878,11 +4761,11 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/components/CombosBanner.jsx",
-      "source_location": "L4",
+      "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_combosbanner",
-      "target": "src_context_cartcontext_usecart",
+      "target": "src_hooks_useparallax_useparallax",
       "confidence_score": 1.0
     },
     {
@@ -4890,11 +4773,11 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/components/CombosBanner.jsx",
-      "source_location": "L3",
+      "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_combosbanner",
-      "target": "src_data_menudata",
+      "target": "src_hooks_usereveal",
       "confidence_score": 1.0
     },
     {
@@ -4902,12 +4785,24 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/components/CombosBanner.jsx",
-      "source_location": "L3",
+      "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_combosbanner",
-      "target": "src_data_menudata_products",
+      "target": "src_hooks_usereveal_usereveal",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/CombosBanner.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_components_combosbanner_combosbanner",
+      "target": "src_hooks_useparallax_useparallax"
     },
     {
       "relation": "calls",
@@ -4919,7 +4814,7 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_combosbanner_combosbanner",
-      "target": "src_context_cartcontext_usecart"
+      "target": "src_hooks_usereveal_usereveal"
     },
     {
       "relation": "contains",
@@ -5022,7 +4917,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/components/FeaturedProducts.jsx",
-      "source_location": "L49",
+      "source_location": "L48",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_featuredproducts_featuredproducts",
@@ -5034,7 +4929,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/components/FeaturedProducts.jsx",
-      "source_location": "L63",
+      "source_location": "L62",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_featuredproducts_featuredproducts",
@@ -5060,30 +4955,6 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_finalcta",
-      "target": "src_components_whatsappicon",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/FinalCTA.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_finalcta",
-      "target": "src_components_whatsappicon_whatsappicon",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/FinalCTA.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_finalcta",
       "target": "src_data_menudata",
       "confidence_score": 1.0
     },
@@ -5092,7 +4963,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/components/FinalCTA.jsx",
-      "source_location": "L2",
+      "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_finalcta",
@@ -5140,7 +5011,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/components/FloatingCartButton.jsx",
-      "source_location": "L14",
+      "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_floatingcartbutton_floatingcartbutton",
@@ -5166,30 +5037,6 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_floatingwhatsapp",
-      "target": "src_components_whatsappicon",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/FloatingWhatsApp.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_floatingwhatsapp",
-      "target": "src_components_whatsappicon_whatsappicon",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/FloatingWhatsApp.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_floatingwhatsapp",
       "target": "src_data_menudata",
       "confidence_score": 1.0
     },
@@ -5198,7 +5045,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/components/FloatingWhatsApp.jsx",
-      "source_location": "L2",
+      "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_floatingwhatsapp",
@@ -5256,35 +5103,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/Footer.jsx",
-      "source_location": "L6",
+      "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_footer",
       "target": "src_components_footer_footer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Footer.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_footer",
-      "target": "src_components_whatsappicon",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Footer.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_footer",
-      "target": "src_components_whatsappicon_whatsappicon",
       "confidence_score": 1.0
     },
     {
@@ -5315,35 +5138,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/Hero.jsx",
-      "source_location": "L6",
+      "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_hero",
       "target": "src_components_hero_hero",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Hero.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_hero",
-      "target": "src_components_whatsappicon",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Hero.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_hero",
-      "target": "src_components_whatsappicon_whatsappicon",
       "confidence_score": 1.0
     },
     {
@@ -5468,7 +5267,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/Navbar.jsx",
-      "source_location": "L7",
+      "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_navbar",
@@ -5491,31 +5290,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/components/Navbar.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_navbar",
-      "target": "src_components_whatsappicon",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Navbar.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_navbar",
-      "target": "src_components_whatsappicon_whatsappicon",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Navbar.jsx",
-      "source_location": "L4",
+      "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_navbar",
@@ -5527,7 +5302,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/components/Navbar.jsx",
-      "source_location": "L4",
+      "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_navbar",
@@ -5539,7 +5314,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/components/Navbar.jsx",
-      "source_location": "L3",
+      "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_navbar",
@@ -5551,7 +5326,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/components/Navbar.jsx",
-      "source_location": "L3",
+      "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_navbar",
@@ -5728,7 +5503,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/PromoBanner.jsx",
-      "source_location": "L8",
+      "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_promobanner",
@@ -5739,59 +5514,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/PromoBanner.jsx",
-      "source_location": "L19",
+      "source_location": "L17",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_promobanner",
       "target": "src_components_promobanner_promobanner",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/PromoBanner.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_promobanner",
-      "target": "src_components_whatsappicon",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/PromoBanner.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_promobanner",
-      "target": "src_components_whatsappicon_whatsappicon",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/PromoBanner.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_promobanner",
-      "target": "src_data_menudata",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/PromoBanner.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_promobanner",
-      "target": "src_data_menudata_restaurant_info",
       "confidence_score": 1.0
     },
     {
@@ -5824,7 +5551,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/components/PromoBanner.jsx",
-      "source_location": "L20",
+      "source_location": "L18",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_promobanner_promobanner",
@@ -5891,7 +5618,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/SocialGrid.jsx",
-      "source_location": "L4",
+      "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_socialgrid",
@@ -5902,7 +5629,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/SocialGrid.jsx",
-      "source_location": "L14",
+      "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_socialgrid",
@@ -5914,7 +5641,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/components/SocialGrid.jsx",
-      "source_location": "L2",
+      "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_socialgrid",
@@ -5926,12 +5653,48 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/components/SocialGrid.jsx",
-      "source_location": "L2",
+      "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_components_socialgrid",
       "target": "src_data_menudata_restaurant_info",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/SocialGrid.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_components_socialgrid",
+      "target": "src_hooks_usereveal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/SocialGrid.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_components_socialgrid",
+      "target": "src_hooks_usereveal_usereveal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/SocialGrid.jsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_components_socialgrid_socialgrid",
+      "target": "src_hooks_usereveal_usereveal"
     },
     {
       "relation": "contains",
@@ -6215,17 +5978,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/WhatsAppIcon.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_whatsappicon",
-      "target": "src_components_whatsappicon_whatsappicon",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "src/components/WhatsAppPreviewModal.jsx",
       "source_location": "L7",
       "weight": 1.0,
@@ -6403,7 +6155,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/data/menuData.js",
-      "source_location": "L20",
+      "source_location": "L19",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_data_menudata",
@@ -6414,7 +6166,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/data/menuData.js",
-      "source_location": "L32",
+      "source_location": "L31",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_data_menudata",
@@ -6425,7 +6177,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/data/menuData.js",
-      "source_location": "L18",
+      "source_location": "L17",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_data_menudata",
@@ -6436,7 +6188,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/data/menuData.js",
-      "source_location": "L40",
+      "source_location": "L39",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_data_menudata",
@@ -6458,7 +6210,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/data/menuData.js",
-      "source_location": "L235",
+      "source_location": "L222",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_data_menudata",
@@ -7766,6 +7518,5 @@
       "confidence_score": 1.0
     }
   ],
-  "hyperedges": [],
-  "built_at_commit": "fd1f799e0d171cbfc9f7b9aaed9eb00e1e7968a4"
+  "hyperedges": []
 }

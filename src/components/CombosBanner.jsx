@@ -58,7 +58,7 @@ export default function CombosBanner() {
         <div className="lg:col-span-6 space-y-6 text-left">
           <div>
             <span className="seal mb-2">ABUNDANCIA & SABOR</span>
-            <h2 className="proun-text font-display font-black uppercase text-4xl sm:text-5xl lg:text-6xl text-[#D6A62A] leading-none tracking-tight">
+            <h2 className="font-display font-black uppercase text-4xl sm:text-5xl lg:text-6xl text-[#D6A62A] leading-none tracking-tight">
               COMBOS PARA COMPARTIR
             </h2>
             <p className="text-sm text-white/90 font-medium mt-2">

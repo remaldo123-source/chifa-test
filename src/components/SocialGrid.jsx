@@ -29,7 +29,7 @@ export default function SocialGrid() {
         
         <div className="text-center space-y-2">
           <span className="seal">COMUNIDAD CHIFERA</span>
-          <h2 className="proun-text font-display font-black uppercase text-4xl sm:text-5xl lg:text-6xl tracking-tight text-[#171313]">
+          <h2 className="font-display font-black uppercase text-4xl sm:text-5xl lg:text-6xl tracking-tight text-[#171313]">
             SIGUE EL <span className="text-[#7A0508]">SABOR</span>
           </h2>
           <p className="text-xs sm:text-sm text-[#756D6A] font-medium">

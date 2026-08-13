@@ -40,7 +40,7 @@ export default function FeaturedProducts() {
         
         {/* Left Section: 3 Dark Cards for Favoritos (8 Cols) */}
         <div className="xl:col-span-8 space-y-4">
-          <h3 className="proun-text font-brand font-black text-xl uppercase tracking-wider text-[#1A1817]">
+          <h3 className="font-brand font-black text-xl uppercase tracking-wider text-[#1A1817]">
             LOS FAVORITOS DE RÍO LARGO
           </h3>
 

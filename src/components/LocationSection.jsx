@@ -18,7 +18,7 @@ export default function LocationSection() {
           <div className="lg:col-span-6 space-y-6 text-left">
             <div>
               <span className="seal mb-2">UBICACIÓN Y ATENCIÓN</span>
-              <h2 className="proun-text font-display font-black uppercase text-4xl sm:text-5xl lg:text-6xl text-[#171313] leading-none tracking-tight">
+              <h2 className="font-display font-black uppercase text-4xl sm:text-5xl lg:text-6xl text-[#171313] leading-none tracking-tight">
                 VISÍTANOS O PIDE <span className="text-[#7A0508]">DIRECTO A TU CASA</span>
               </h2>
             </div>

@@ -86,7 +86,7 @@ export default function SocialGrid() {
             className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-[#7A0508] text-white font-bold text-xs uppercase tracking-wider shadow-md hover:bg-[#8E0A0D] border border-[#D6A62A]/40 transition-all hover:scale-105"
           >
             <InstagramIcon className="w-4 h-4 text-[#D6A62A]" />
-            <span>SÍGUENOS EN {RESTAURANT_INFO.instagramDisplay}</span>
+            <span>SIGUENOS EN {RESTAURANT_INFO.instagramDisplay}</span>
           </a>
         </div>
 

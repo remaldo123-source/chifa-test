@@ -17,9 +17,9 @@ export default function LocationSection() {
           {/* Left Info Panel */}
           <div className="lg:col-span-6 space-y-6 text-left">
             <div>
-              <span className="seal mb-2">UBICACIÓN Y ATENCIÓN</span>
+              <span className="seal mb-2">UBICACION Y ATENCION</span>
               <h2 className="proun-text font-display font-black uppercase text-4xl sm:text-5xl lg:text-6xl text-[#171313] leading-none tracking-tight">
-                VISÍTANOS O PIDE <span className="text-[#7A0508]">DIRECTO A TU CASA</span>
+                VISITANOS O PIDE <span className="text-[#7A0508]">DIRECTO A TU CASA</span>
               </h2>
             </div>
 
@@ -27,7 +27,7 @@ export default function LocationSection() {
               <div className="flex items-start gap-3 bg-[#F6F0E6] p-4 rounded-xl border border-[#E2D5C2]">
                 <MapPin className="w-5 h-5 text-[#7A0508] shrink-0 mt-0.5" />
                 <div>
-                  <strong className="text-[#171313] block font-bold">Dirección del Local:</strong>
+                  <strong className="text-[#171313] block font-bold">Direccion del Local:</strong>
                   <span>{RESTAURANT_INFO.address}</span>
                 </div>
               </div>
@@ -35,7 +35,7 @@ export default function LocationSection() {
               <div className="flex items-start gap-3 bg-[#F6F0E6] p-4 rounded-xl border border-[#E2D5C2]">
                 <Clock className="w-5 h-5 text-[#7A0508] shrink-0 mt-0.5" />
                 <div>
-                  <strong className="text-[#171313] block font-bold">Horario de Atención:</strong>
+                  <strong className="text-[#171313] block font-bold">Horario de Atencion:</strong>
                   <span>{RESTAURANT_INFO.hours}</span>
                 </div>
               </div>
@@ -51,7 +51,7 @@ export default function LocationSection() {
               <div className="flex items-start gap-3 bg-[#F6F0E6] p-4 rounded-xl border border-[#E2D5C2]">
                 <Phone className="w-5 h-5 text-[#25D366] shrink-0 mt-0.5" />
                 <div>
-                  <strong className="text-[#171313] block font-bold">Atención Directa WhatsApp:</strong>
+                  <strong className="text-[#171313] block font-bold">Atencion Directa WhatsApp:</strong>
                   <span className="font-bold text-[#7A0508]">{RESTAURANT_INFO.whatsappDisplay}</span>
                 </div>
               </div>
@@ -70,7 +70,7 @@ export default function LocationSection() {
                 className="btn-translucent text-xs text-[#171313] border-[#7A0508] flex items-center justify-center gap-2"
               >
                 <Navigation className="w-4 h-4 text-[#7A0508]" />
-                <span>CÓMO LLEGAR</span>
+                <span>COMO LLEGAR</span>
               </a>
             </div>
           </div>

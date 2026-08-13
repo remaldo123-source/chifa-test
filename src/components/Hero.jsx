@@ -37,7 +37,7 @@ export default function Hero() {
           <div className="inline-flex items-center gap-2">
             <span className="seal">
               <span className="w-1.5 h-1.5 rounded-full bg-[#25D366] animate-ping" />
-              CHIFA RÍO LARGO
+              CHIFA RIO LARGO
             </span>
           </div>
 
@@ -51,7 +51,7 @@ export default function Hero() {
 
           {/* Subtitle */}
           <p className="text-sm sm:text-base text-white/90 font-medium max-w-lg leading-relaxed">
-            El encuentro perfecto entre la tradición china y el sabor peruano. Wok a fuego vivo y porciones generosas.
+            El encuentro perfecto entre la tradicion china y el sabor peruano. Wok a fuego vivo y porciones generosas.
           </p>
 
           {/* Dual CTAs with Authentic WhatsApp Icon */}
@@ -68,7 +68,7 @@ export default function Hero() {
               onClick={scrollToMenu}
               className="btn-translucent text-xs px-6 py-3.5 rounded-full border border-[#D6A62A]/50 hover:bg-[#D6A62A]/20 transition flex items-center justify-center gap-2"
             >
-              <span className="proun-text">VER MENÚ</span>
+              <span className="proun-text">VER MENU</span>
               <ChevronDown className="w-4 h-4 text-[#D6A62A]" />
             </button>
           </div>
@@ -98,7 +98,7 @@ export default function Hero() {
         className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-1 opacity-80 hover:opacity-100 transition cursor-pointer"
       >
         <span className="text-[9px] font-extrabold uppercase tracking-[0.25em] text-[#D6A62A]">
-          DESCUBRE EL MENÚ
+          DESCUBRE EL MENU
         </span>
         <ChevronDown className="w-4 h-4 text-[#D6A62A] animate-bounce-slow" />
       </div>

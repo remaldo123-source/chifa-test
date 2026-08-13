@@ -11,13 +11,13 @@ export default function FeaturedProducts() {
       id: 'chaufa-especial',
       name: 'Arroz Chaufa Especial',
       price: 18.00,
-      badge: 'MÁS PEDIDO',
+      badge: 'MAS PEDIDO',
       badgeType: 'mas-pedido',
       image: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80',
     },
     {
       id: 'tallarin-especial',
-      name: 'Tallarín Saltado Especial',
+      name: 'Tallarin Saltado Especial',
       price: 20.00,
       badge: 'FAVORITO',
       badgeType: 'favorito',
@@ -41,7 +41,7 @@ export default function FeaturedProducts() {
         {/* Left Section: 3 Dark Cards for Favoritos (8 Cols) */}
         <div className="xl:col-span-8 space-y-4">
           <h3 className="proun-text font-brand font-black text-xl uppercase tracking-wider text-[#1A1817]">
-            LOS FAVORITOS DE RÍO LARGO
+            LOS FAVORITOS DE RIO LARGO
           </h3>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -117,7 +117,7 @@ export default function FeaturedProducts() {
               href="#historia"
               className="w-full block text-center py-2.5 rounded-xl text-xs font-bold text-[#1A1817] bg-white border border-[#E2D7C7] hover:bg-[#E2D7C7] transition uppercase"
             >
-              CONÓCENOS
+              CONOCENOS
             </a>
           </div>
         </div>

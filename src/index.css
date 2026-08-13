@@ -3,19 +3,19 @@
 @font-face {
   font-family: 'Proun Bold';
   src: url('/fonts/proun-bold.ttf') format('truetype');
-  font-weight: 400 900;
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 .proun-text {
-  font-family: 'Proun Bold', 'Chakra Petch', sans-serif !important;
+  font-family: 'Proun Bold', 'Chakra Petch', sans-serif;
 }
 
 @theme {
   /* ── Typography matching user mockup ──────────────────────────── */
-  --font-brand: "Proun Bold", "Chakra Petch", "Bebas Neue", "Arial Black", sans-serif;
-  --font-display: "Proun Bold", "Chakra Petch", "Bebas Neue", sans-serif;
+  --font-brand: "Chakra Petch", "Bebas Neue", "Arial Black", sans-serif;
+  --font-display: "Chakra Petch", "Bebas Neue", sans-serif;
   --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
   --font-seal: "Noto Serif SC", serif;
 

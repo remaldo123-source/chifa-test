@@ -43,10 +43,8 @@ export default function Hero() {
 
           {/* Headline */}
           <h1 className="proun-text font-display font-black uppercase text-6xl sm:text-7xl lg:text-[6.5rem] leading-[0.9] tracking-tight text-white">
-            <span className="block">EL SABOR</span>
-            <span className="block">QUE</span>
-            <span className="block">SIEMPRE</span>
-            <span className="block text-[#D6A62A]">GANAS</span>
+            <span className="block">SABOR QUE</span>
+            <span className="block text-[#D6A62A]">UNE CULTURAS</span>
           </h1>
 
           {/* Subtitle */}

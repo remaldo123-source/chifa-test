@@ -5,10 +5,10 @@ import { useCart } from '../context/CartContext';
 import WhatsAppIcon from './WhatsAppIcon';
 
 const NAV_LINKS = [
-  { label: 'MENU', href: '#menu' },
+  { label: 'MENÚ', href: '#menu' },
   { label: 'FAVORITOS', href: '#favoritos' },
   { label: 'NOSOTROS', href: '#historia' },
-  { label: 'UBICACION', href: '#ubicacion' },
+  { label: 'UBICACIÓN', href: '#ubicacion' },
 ];
 
 export default function Navbar() {
@@ -25,7 +25,7 @@ export default function Navbar() {
   }, [cartAnimationTrigger]);
 
   const handleWhatsApp = () => {
-    const msg = encodeURIComponent('Hola Rio Largo 👋 Quisiera realizar un pedido.');
+    const msg = encodeURIComponent('Hola Río Largo 👋 Quisiera realizar un pedido.');
     window.open(`https://wa.me/${RESTAURANT_INFO.whatsappNumber}?text=${msg}`, '_blank');
   };
 
@@ -45,7 +45,7 @@ export default function Navbar() {
             </div>
             <div>
               <div className="proun-text font-brand font-black text-white text-xl lg:text-2xl tracking-wider leading-none">
-                RIO LARGO
+                RÍO LARGO
               </div>
               <div className="text-[10px] text-[#D4AF37] font-bold tracking-[0.25em] uppercase mt-0.5">
                 CHIFA

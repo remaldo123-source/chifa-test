@@ -20,8 +20,8 @@
     "semantic_hash": ""
   },
   "src/App.jsx": {
-    "mtime": 1786580065.622216,
-    "ast_hash": "84c39a09772d8d657712093eebbfc2c9",
+    "mtime": 1786243497.1475935,
+    "ast_hash": "e6e57a71ceaab9e6482fbd7b0587b1cf",
     "semantic_hash": ""
   },
   "src/components/CategoryNav.jsx": {
@@ -35,38 +35,38 @@
     "semantic_hash": ""
   },
   "src/components/CombosBanner.jsx": {
-    "mtime": 1786507823.2347822,
-    "ast_hash": "c28565f99335e1d08dfa001b09ac0e49",
+    "mtime": 1786243543.6237707,
+    "ast_hash": "86eab87d05e84b3206e74f682ed3213a",
     "semantic_hash": ""
   },
   "src/components/FeaturedProducts.jsx": {
-    "mtime": 1786580089.3758552,
-    "ast_hash": "d91915c08876db5a4e83f97b361e2a6e",
+    "mtime": 1786243602.8549361,
+    "ast_hash": "8c62912991acb0ab2a5b0923ac2efc60",
     "semantic_hash": ""
   },
   "src/components/FinalCTA.jsx": {
-    "mtime": 1786580122.4245467,
-    "ast_hash": "16cd22483298fa79e9a15a3739e9598b",
+    "mtime": 1786243559.624576,
+    "ast_hash": "cb8f17f0d63e83bcb85f81fe086b0146",
     "semantic_hash": ""
   },
   "src/components/FloatingWhatsApp.jsx": {
-    "mtime": 1786244146.3914979,
-    "ast_hash": "cdead4991644a0f720185e74b81e850c",
+    "mtime": 1786243567.3107417,
+    "ast_hash": "883862f401ac19551f84d974e69b5f20",
     "semantic_hash": ""
   },
   "src/components/Footer.jsx": {
-    "mtime": 1786244138.7911181,
-    "ast_hash": "2c7260d224939626d4c7c2d8140d6a83",
+    "mtime": 1786242981.2761526,
+    "ast_hash": "f8f3d72ba8a6f8a0c2a478e6e6073d85",
     "semantic_hash": ""
   },
   "src/components/Hero.jsx": {
-    "mtime": 1786580058.1151037,
-    "ast_hash": "243232d127a9a206e9f31e66fa9daf82",
+    "mtime": 1786243571.5272665,
+    "ast_hash": "c1b781f89b98b28d147a0f2b325fb0f6",
     "semantic_hash": ""
   },
   "src/components/LocationSection.jsx": {
-    "mtime": 1786580114.3224745,
-    "ast_hash": "e846a667e27c5ea62cc60ffb16914ea3",
+    "mtime": 1786242961.3570232,
+    "ast_hash": "bfefb0b17db905b7de588cabc8ae6453",
     "semantic_hash": ""
   },
   "src/components/MenuSection.jsx": {
@@ -75,28 +75,28 @@
     "semantic_hash": ""
   },
   "src/components/Navbar.jsx": {
-    "mtime": 1786580073.5753076,
-    "ast_hash": "9ad054d363bcb9c69efb634d17bc9ce3",
+    "mtime": 1786243500.6963036,
+    "ast_hash": "ebf2e440145be5e9f34b938d662b1696",
     "semantic_hash": ""
   },
   "src/components/ProductCard.jsx": {
-    "mtime": 1786578483.094441,
-    "ast_hash": "25992790a5a6a815cd11a068bf2626da",
+    "mtime": 1786243599.8969939,
+    "ast_hash": "43e11a76b703319012b4817c4b0ada22",
     "semantic_hash": ""
   },
   "src/components/ProductModal.jsx": {
-    "mtime": 1786578483.0955117,
-    "ast_hash": "8a9b4b46d577b46867e6c2cd47ab28c4",
+    "mtime": 1786236450.092126,
+    "ast_hash": "b2feafd7dc4a2400ec1fcebb334a653c",
     "semantic_hash": ""
   },
   "src/components/SocialGrid.jsx": {
-    "mtime": 1786580130.2330139,
-    "ast_hash": "aa0ef97413bcb8086d2bbe87461289bf",
+    "mtime": 1786243540.109988,
+    "ast_hash": "7fc32c1a9a9d92dbfeede33d5a2aedec",
     "semantic_hash": ""
   },
   "src/components/StorySection.jsx": {
-    "mtime": 1786580097.4024034,
-    "ast_hash": "2de659a1e7ec7a68ed17eced3c12552e",
+    "mtime": 1786243533.079167,
+    "ast_hash": "e6fd687db97f7858722638015c84c1ed",
     "semantic_hash": ""
   },
   "src/components/TrustBar.jsx": {
@@ -105,8 +105,8 @@
     "semantic_hash": ""
   },
   "src/components/TrustSection.jsx": {
-    "mtime": 1786580105.5968602,
-    "ast_hash": "20e73f71013cf9c09ae7bf8bcb56df10",
+    "mtime": 1786241110.4314127,
+    "ast_hash": "bb80d9484b8d69c4fe25164381dc00b6",
     "semantic_hash": ""
   },
   "src/context/CartContext.jsx": {
@@ -115,8 +115,8 @@
     "semantic_hash": ""
   },
   "src/data/menuData.js": {
-    "mtime": 1786580049.4344862,
-    "ast_hash": "28f9bca646ccd0bba247021f60df9918",
+    "mtime": 1786243516.5109637,
+    "ast_hash": "6fc7f27c58566373bec0dc0ddefff804",
     "semantic_hash": ""
   },
   "src/main.jsx": {
@@ -125,7 +125,7 @@
     "semantic_hash": ""
   },
   "src/utils/whatsapp.js": {
-    "mtime": 1786580138.112702,
+    "mtime": 1786242867.9533477,
     "ast_hash": "4a537eb5c60849e5350f7065daff6413",
     "semantic_hash": ""
   },
@@ -245,8 +245,8 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1786580368.7720432,
-    "ast_hash": "d8443aa9679b168b0cbd9075f47bc5c9",
+    "mtime": 1786242969.0978518,
+    "ast_hash": "26d0aab7e5d2367db4bce46d088873c8",
     "semantic_hash": ""
   },
   "public/favicon.svg": {
@@ -325,23 +325,23 @@
     "semantic_hash": ""
   },
   "src/components/PromoBanner.jsx": {
-    "mtime": 1786248413.5655699,
-    "ast_hash": "d7a88ec5ce71df7fc71a4c9cd9c4cba7",
+    "mtime": 1786243547.571852,
+    "ast_hash": "22dff11c34a78d889d6ab26dad15163d",
     "semantic_hash": ""
   },
   "src/components/Testimonials.jsx": {
-    "mtime": 1786578483.0977762,
-    "ast_hash": "753378b0849128bf97ede8a1a2ccb5da",
+    "mtime": 1786242921.3340535,
+    "ast_hash": "1a95dcf489917ed06984e11bc48aa64d",
     "semantic_hash": ""
   },
   "src/components/CartDrawer.jsx": {
-    "mtime": 1786578483.0901325,
-    "ast_hash": "90ec7099861790df3e3c32d71e200302",
+    "mtime": 1786243462.206299,
+    "ast_hash": "3dacfca3d6b9b0b765039225ed07ca26",
     "semantic_hash": ""
   },
   "src/components/FloatingCartButton.jsx": {
-    "mtime": 1786249114.604319,
-    "ast_hash": "9cbf54ae8065d8a7b4da3ce7cf433b3f",
+    "mtime": 1786243476.8490689,
+    "ast_hash": "7dc36aeede700a7a508930c5a4ea524f",
     "semantic_hash": ""
   },
   "src/components/WhatsAppPreviewModal.jsx": {
@@ -352,31 +352,6 @@
   "src/utils/badges.js": {
     "mtime": 1786243595.4801064,
     "ast_hash": "a5298bfbe2e8667055d4128ca4cd5fe4",
-    "semantic_hash": ""
-  },
-  "src/components/CartSidebar.jsx": {
-    "mtime": 1786578483.0917797,
-    "ast_hash": "7ab18ce81e7b5815a196c182665a7c8a",
-    "semantic_hash": ""
-  },
-  "src/components/WhatsAppIcon.jsx": {
-    "mtime": 1786244081.8426836,
-    "ast_hash": "a6cfa19196b5db529ef877290ac6cb52",
-    "semantic_hash": ""
-  },
-  "made_in_china/licence.txt": {
-    "mtime": 1035553260.0,
-    "ast_hash": "d9570d1e3e55f8040a89fe1df985b576",
-    "semantic_hash": ""
-  },
-  "proun-bold/Proun Bold/readme.html": {
-    "mtime": 1783999246.0,
-    "ast_hash": "ed5e2132f8bbfb95dfa8d2a8a731494c",
-    "semantic_hash": ""
-  },
-  "public/fonts/Proun Bold/readme.html": {
-    "mtime": 1783999246.0,
-    "ast_hash": "ed5e2132f8bbfb95dfa8d2a8a731494c",
     "semantic_hash": ""
   }
 }

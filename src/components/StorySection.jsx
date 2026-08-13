@@ -35,14 +35,14 @@ export default function StorySection() {
           {/* Right: Story Copy */}
           <div className="lg:col-span-6 space-y-6 text-left reveal-right">
             <div>
-              <span className="seal mb-2">HERENCIA Y SAZON</span>
+              <span className="seal mb-2">HERENCIA Y SAZÓN</span>
               <h2 className="font-display font-black uppercase text-4xl sm:text-5xl lg:text-6xl text-[#171313] leading-none tracking-tight">
                 UNA HISTORIA QUE SE SIENTE <span className="text-[#7A0508]">EN CADA PLATO</span>
               </h2>
             </div>
 
             <p className="text-sm sm:text-base text-[#544D4B] leading-relaxed font-medium">
-              En <strong className="text-[#7A0508]">Rio Largo</strong> honramos la autentica tradicion del chifa peruano: ese punto exacto donde la tecnica oriental del fuego vivo se abraza con el corazon y los ingredientes mas frescos de nuestra tierra.
+              En <strong className="text-[#7A0508]">Río Largo</strong> honramos la auténtica tradición del chifa peruano: ese punto exacto donde la técnica oriental del fuego vivo se abraza con el corazón y los ingredientes más frescos de nuestra tierra.
             </p>
 
             <p className="text-xs sm:text-sm text-[#756D6A] leading-relaxed">
@@ -54,7 +54,7 @@ export default function StorySection() {
                 href="#menu"
                 className="btn-burgundy px-7 py-3 text-xs min-h-11"
               >
-                <span>CONOCENOS</span>
+                <span>CONÓCENOS</span>
               </a>
             </div>
           </div>

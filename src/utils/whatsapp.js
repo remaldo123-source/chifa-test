@@ -1,4 +1,4 @@
-// WhatsApp Order Builder & URL Generator for Rio Largo (+51935281077)
+// WhatsApp Order Builder & URL Generator for Río Largo (+51935281077)
 
 export const PHONE_NUMBER = '51935281077';
 
@@ -13,13 +13,13 @@ export function generateWhatsAppMessage({ cart, customerDetails, deliveryType, g
 
   const isDelivery = deliveryType === 'delivery';
 
-  let text = `🍽️ NUEVO PEDIDO - RIO LARGO\n\n`;
+  let text = `🍽️ NUEVO PEDIDO - RÍO LARGO\n\n`;
 
   if (customerDetails?.name) {
     text += `👤 Cliente: ${customerDetails.name}\n`;
   }
   if (isDelivery) {
-    text += `📍 Direccion: ${customerDetails?.address || ''}\n`;
+    text += `📍 Dirección: ${customerDetails?.address || ''}\n`;
     if (customerDetails?.reference) {
       text += `📌 Referencia: ${customerDetails.reference}\n`;
     }

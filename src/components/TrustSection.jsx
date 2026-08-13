@@ -5,10 +5,10 @@ export default function TrustSection() {
   const sectionRef = useReveal();
 
   const points = [
-    { num: '01', title: 'SABOR AUTENTICO', desc: 'Tradicion china con verdadera identidad peruana y wok hei ahumado.' },
+    { num: '01', title: 'SABOR AUTÉNTICO', desc: 'Tradición china con verdadera identidad peruana y wok hei ahumado.' },
     { num: '02', title: 'PREPARADO AL MOMENTO', desc: 'Cada plato se cocina al instante con verduras e ingredientes frescos.' },
     { num: '03', title: 'PORCIONES GENEROSAS', desc: 'Abundancia pensada para compartir y disfrutar en familia.' },
-    { num: '04', title: 'PEDIR ES FACIL', desc: 'Sin aplicaciones complejas, tu pedido va directo a nuestro WhatsApp.' },
+    { num: '04', title: 'PEDIR ES FÁCIL', desc: 'Sin aplicaciones complejas, tu pedido va directo a nuestro WhatsApp.' },
   ];
 
   return (
@@ -16,9 +16,9 @@ export default function TrustSection() {
       <div className="max-w-[1440px] mx-auto px-6 lg:px-8 space-y-10">
 
         <div className="text-center space-y-2 reveal">
-          <span className="seal">GARANTIA RIO LARGO</span>
+          <span className="seal">GARANTÍA RÍO LARGO</span>
           <h2 className="font-display font-black uppercase text-3xl sm:text-4xl lg:text-5xl tracking-tight text-[#171313]">
-            POR QUE ELEGIR <span className="text-[#7A0508]">RIO LARGO</span>?
+            ¿POR QUÉ ELEGIR <span className="text-[#7A0508]">RÍO LARGO</span>?
           </h2>
         </div>
 

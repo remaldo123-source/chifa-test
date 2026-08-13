@@ -52,7 +52,7 @@ export default function FinalCTA() {
             <span className="seal">¡PEDIDO EN MENOS DE 60 SEGUNDOS!</span>
 
             <h2 className="proun-text font-display font-black uppercase text-5xl sm:text-7xl lg:text-8xl text-[#F4C430] tracking-tight leading-none">
-              YA SE TE ANTOJO?
+              ¿YA SE TE ANTOJÓ?
             </h2>
 
             <p className="text-sm sm:text-lg text-white/90 font-medium max-w-xl">
